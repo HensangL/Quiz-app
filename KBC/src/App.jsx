@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import bg from './background.jpeg';
+import Routees from './Routees';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       }}
     >
       <Navbar />
+      <Routees/>
     </div>
   );
 }
