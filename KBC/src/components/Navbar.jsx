@@ -9,7 +9,7 @@ function Navbar() {
   // Show sidebar when mouse enters button or sidebar
   // Hide sidebar when mouse leaves both
 
-  const handleMouseEnter = () => {
+  const handleMouseEnter=()=> {
     setshowsidebar(true);
   };
 
@@ -48,7 +48,8 @@ function Navbar() {
               <Link to="/">Home</Link>
             </li>
             <li className="p-1 w-15 flex justify-center font-medium text-gray-900 hover:bg-[#948979] rounded-2xl hover:cursor-pointer">
-              About
+                            <Link to="/about">About</Link>
+
             </li>
           </ul>
         </nav>
